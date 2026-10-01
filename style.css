@@ -1,1 +1,48 @@
+.icon{background-color: rgba(240, 248, 255, 0);
+  border-color: rgba(240, 248, 255, 0); font-weight:1000; font-family: 'Trebuchet MS';
+  color: rgb(73, 73, 73);
+  padding-top: 10px;
+height: 60px;}
+header{
+    background-image: radial-gradient(circle, #02b2e365, #0178b957, #01499669);
+    color: aliceblue;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    min-height: 80px;
+    max-height: 80px;
+  } 
+h1{
+        color:#49c32c;
+    }
+h2{
+        color:#2c7fc3;
+    }
+li{
+        color:rgb(9, 9, 43)
+    }
+p{
+        color:rgb(9, 9, 43)
+    }
+h3{
+        color:#2c7fc3;
+    }
+footer{
+        color:#2c7fc3;
+    }
+.links{
+         position: relative;
+         float: right;
+         font-size: medium;
+         cursor: alias;
+         color:white;
+    }
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 20px;
+}
+.maps{
+    float: right;
+    vertical-align: bottom;
 
+}
